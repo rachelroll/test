@@ -16,4 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/hotel/list','HotelController@getHotelList');
+Route::get('/land/list','LandController@land');
 
